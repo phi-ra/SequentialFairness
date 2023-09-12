@@ -1,0 +1,30 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.R
+!*.Rmd
+!template.latex
+!*.py
+!*.ipynb
+!*.md
+!literature/*/*.pdf
+!requirements.txt
+# etc...
+
+# ...even if they are in subdirectories
+!*/
+
+main/**/*try*
+notebooks/**/*try*
+notebooks/**/*checkpoint*
+main/**/*checkpoint*
+
+cenv*
+
+data*
+
+# if the files to be tracked are in subdirectories
+#!*/a/b/file1.txt
+#!*/a/b/c/*
